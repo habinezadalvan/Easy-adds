@@ -11,9 +11,17 @@ Clothing, Cameras, Furniture, Cars, and Phones.
 *Getting started with Easyadds apis*
 
 step 1: Clone the repo
+
+
 step 2: checkout to *Easy-adds*
+
+
 step 3: use your terminal and run *npm install*
+
+
 step 4: run *npm run start:dev*, the default port: 5000. The server will be running on http://localhost:5000
+
+
 step 5: Test api 
 
   *Endpoints version two (V1) with postgresql database*
@@ -58,8 +66,11 @@ Addition information: UI features
 **On error**
 
 {
+
 “status”: 404,
+
 “error”: “relevant-error-message”
+
 }
 
 
@@ -69,13 +80,21 @@ Addition information: UI features
 Users
 
 {
+
 “id” : Integer,
+
 “firstName”: String,
+
 “lastName”: String,
+
 “email”: String,
+
 “password”: String,
+
 “address”: String,
+
 “phoneNumber”: String
+
 }
 
 
@@ -83,14 +102,23 @@ Users
 
 
 {
+
 “id” : Integer,
+
 “ownerId”: Integer, // userId
+
 “title”: String,
+
 “price”: String,
+
 “status”: String, // sold, available
+
 “image”: String,
+
 “categoryId”: Integer, // categoryId
+
 “description”: String
+
 }
 
 
@@ -98,9 +126,13 @@ Users
 
 
 {
+
 “id” : Integer,
+
 “name”: String,
+
 “description”: String
+
 }
 
 
