@@ -47,18 +47,27 @@ Addition information: UI features
 
 *API Response Specification*
 
-On success
+**On success**
 {
 “status”: 200,
 “data”: {...}
 }
-On error
+
+
+
+**On error**
+
 {
 “status”: 404,
 “error”: “relevant-error-message”
 }
-Entity Specification
+
+
+**Entity Specification**
+
+
 Users
+
 {
 “id” : Integer,
 “firstName”: String,
@@ -68,7 +77,11 @@ Users
 “address”: String,
 “phoneNumber”: String
 }
-Stuff/Products
+
+
+**Stuff/Products**
+
+
 {
 “id” : Integer,
 “ownerId”: Integer, // userId
@@ -79,9 +92,15 @@ Stuff/Products
 “categoryId”: Integer, // categoryId
 “description”: String
 }
-Category
+
+
+**Category**
+
+
 {
 “id” : Integer,
 “name”: String,
 “description”: String
 }
+
+
